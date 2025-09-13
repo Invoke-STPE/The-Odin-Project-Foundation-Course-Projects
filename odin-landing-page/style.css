@@ -46,6 +46,7 @@ button {
 .hero {
     background-color: #1F2937;
 }
+
 header .header-container > ul {
     display: flex;
     align-items: center;
@@ -123,4 +124,30 @@ header .header-container > ul > li > a {
     min-height: 150px;
     border: 2px solid var(--color-accent);
     border-radius: 15px;
+}
+
+/* INFORMATION SECTION END */
+
+/* TESTIMONIAL START */
+.section-testimonial {
+    background-color: #E5E7EB;
+    padding-block: 5rem;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 940px;
+    margin-inline: auto;
+}
+
+.testimonial-text {
+    font-size: var(--font-size-xl);
+    color: #1F2937;
+    font-weight: 300;
+    margin-block-end: 0;
+}
+
+.testimonial-author {
+    margin-inline-start: auto;
 }
